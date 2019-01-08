@@ -1,4 +1,4 @@
-import FrontPage from "./images/jumbotronPhoto.jpg";
+import FrontPage from "./images/FrontPage.jpg";
 import React, { Component } from 'react';
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends Component {
         </ul>
         <div className="startingPage">
           <img id = "openingPicture" src={FrontPage} alt="Front Page"></img>
-          <a alt="GitHub_Button" src="https://github.com/vedantm8"></a>
+          <a id = "gitHubButton" alt="GitHub_Button" href="https://github.com/vedantm8">GitHub</a>
         </div>
         </div>
         );
