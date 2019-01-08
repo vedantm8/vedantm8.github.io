@@ -1,6 +1,6 @@
 import FrontPage from "./images/FrontPage.jpg";
 import BCSPicture from "./images/BooCampSpot.jpg";
-import GLPicture from "./images/geoLertLogo.jpg";
+import GLPicture from "./images/geoLertLogo.png";
 import React, { Component } from 'react';
 import './App.css';
 
