@@ -95,28 +95,36 @@ li a:hover {
 
 .Title{
   text-align: center;
+  position: relative;
 }
 
-/* BootCampSpot */
-#Boo-Camp-Spot{
+/* Portfolio */
+.Boxes{
   border: 1px solid green ;
   width: 300px;
   height: 500px;
   position: relative;
   left: 200px;
   background-color: lightgray;
+  float: left;
+  margin: 70px;
 }
-#BCSPicture{
-  width: 300px;
+.PortfolioPicture{
+  width: 295px;
   height: 150px;
   align-content: center;
   border-top: 1cm;
 }
-#BCSGitHub{
+.PortfolioGitHub{
   font-size: 30px;
 }
-#BCSLive{
+.PortfolioLive{
   font-size: 30px;
 }
 
-/* GeoLert */
+#skillTitle{
+  border:100px;
+  text-align: center;
+  right: 200px;
+  
+}
