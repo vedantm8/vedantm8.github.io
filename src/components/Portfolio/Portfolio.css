@@ -1,0 +1,19 @@
+.card{
+    width: 18rem;
+    height: 300px;
+}
+#GeoLertPhoto{
+    height: 400px;
+}
+
+.card-body{
+    border-bottom: 10px;
+}
+
+#something{
+    left: 67px;
+}
+
+#geoLertCard{
+    left: 30px;
+}
