@@ -3,10 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 class NavBar extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
