@@ -2,8 +2,8 @@ version: '3.7'
 
 services:
 
-  sample:
-    container_name: sample
+  vedantm8:
+    container_name: vedantm8
     build:
       context: .
       dockerfile: Dockerfile
