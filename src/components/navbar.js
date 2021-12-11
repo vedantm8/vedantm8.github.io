@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-class NavBar extends Component {
+export default class NavBar extends Component {
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -22,4 +22,3 @@ class NavBar extends Component {
         );
     }
 }
-export default NavBar;
