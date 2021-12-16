@@ -1,0 +1,4 @@
+.frontPage{
+    display:flex; 
+    flex-direction:row;
+}
