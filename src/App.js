@@ -4,7 +4,7 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Resume from "./pages/Resume";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
