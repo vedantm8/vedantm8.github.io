@@ -1,10 +1,10 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
-import NavBar from "../../components/navbar";
-import Introduction from "../../components/introduction/Introduction";
-import MainImage from "../../components/MainImage/MainImage";
-import vedant_m from "../../assets/vedant_m.jpg";
+import NavBar from "../components/navbar";
+import Introduction from "../components/introduction/Introduction";
+import MainImage from "../components/MainImage/MainImage";
+import vedant_m from "../assets/vedant_m.jpg";
 
 const HomePage = () => {
     return (
@@ -16,7 +16,7 @@ const HomePage = () => {
                     <Col xs={6} md={4}><MainImage src={vedant_m}/></Col>
                     <Col>
                         <Introduction />
-                        <Button href="aboutme">Contact Me</Button>{' '}
+                        <Button href="contacts">Contact Me</Button>{' '}
                     </Col>
                     <Col xs={3}></Col>
                 </Row>

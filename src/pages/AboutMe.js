@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import NavBar from "../../components/navbar";
-import MainImage from "../../components/MainImage/MainImage";
-import AboutMeSummary from "../../components/AboutMeSummary/AboutMeSummary";
-import vedantm from "../../assets/vedantm.JPG";
+import NavBar from "../components/navbar";
+import MainImage from "../components/MainImage/MainImage";
+import AboutMeSummary from "../components/AboutMeSummary/AboutMeSummary";
+import vedantm from "../assets/vedantm.JPG";
 
 const AboutMe = () => {
     return (
