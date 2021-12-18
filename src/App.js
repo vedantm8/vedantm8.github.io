@@ -11,14 +11,12 @@ import {
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route exact path="/" element={<HomePage />} />
-                <Route exact path="/aboutme" element={<AboutMe />} />
-                <Route exact path="/contacts" element={<Contact />} />
-                <Route exact path="/resume" element={<Resume />} />
-            </Routes>
-        </Router>
+        <Switch>
+            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/aboutme" element={<AboutMe />} />
+            <Route exact path="/contacts" element={<Contact />} />
+            <Route exact path="/resume" element={<Resume />} />
+        </Switch>
     );
 }
 
