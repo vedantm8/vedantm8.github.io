@@ -16,7 +16,7 @@ const HomePage = () => {
                     <Col xs={6} md={4}><MainImage src={vedant_m}/></Col>
                     <Col>
                         <Introduction />
-                        <Button href="contacts">Contact Me</Button>{' '}
+                        <Button href="/#/contacts">Contact Me</Button>{' '}
                     </Col>
                     <Col xs={3}></Col>
                 </Row>
