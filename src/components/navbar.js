@@ -6,13 +6,13 @@ export default class NavBar extends Component {
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/">Vedant Mukherjee</Navbar.Brand>
+                <Navbar.Brand href="/#/">Vedant Mukherjee</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/aboutme">About me</Nav.Link>
-                        <Nav.Link href="/contacts">Contacts</Nav.Link>
-                        <Nav.Link href="/resume">Resume</Nav.Link>
+                        <Nav.Link href="/#/aboutme">About me</Nav.Link>
+                        <Nav.Link href="/#/contacts">Contacts</Nav.Link>
+                        <Nav.Link href="/#/resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
