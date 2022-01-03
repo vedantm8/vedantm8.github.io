@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, Image, Card } from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 import NavBar from "../components/navbar";
 import TopImage from "../components/TopImage/TopImage";
